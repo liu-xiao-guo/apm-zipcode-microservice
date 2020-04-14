@@ -9,10 +9,10 @@ var apm = require('elastic-apm-node').start({
     secretToken: '1234561',
   
     // Set custom APM Server URL (default: http://localhost:8200)
-    serverUrl: 'https://localhost:8200',
+    serverUrl: 'http://localhost:8200'
 
-    verifyServerCert: false,
-    serverCaCertFile: "/Users/liuxg/nodejs/apm/zipcode-microservice-node/ca.crt"
+    # verifyServerCert: false,
+    i# serverCaCertFile: "/Users/liuxg/nodejs/apm/zipcode-microservice-node/ca.crt"
   })
 
 var express = require('express')
