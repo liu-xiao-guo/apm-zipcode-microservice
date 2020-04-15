@@ -12,7 +12,7 @@ var apm = require('elastic-apm-node').start({
     serverUrl: 'http://localhost:8200'
 
     # verifyServerCert: false,
-    i# serverCaCertFile: "/Users/liuxg/nodejs/apm/zipcode-microservice-node/ca.crt"
+    # serverCaCertFile: "/Users/liuxg/nodejs/apm/zipcode-microservice-node/ca.crt"
   })
 
 var express = require('express')
