@@ -18,7 +18,7 @@
   "homepage": "https://github.com/echovue/zipcode-microservice-node#readme",
   "dependencies": {
     "elastic-apm-node": "^3.5.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "request": "^2.87.0"
   }
 }
